@@ -9,8 +9,6 @@ on:
   pull_request:
     branches:
       - main
-  schedule:
-    - cron: '0 23 * * *'
 
 jobs:
   docker-build:
